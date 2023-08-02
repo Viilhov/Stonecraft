@@ -73,15 +73,32 @@ nav a:hover {
 }
 .section.about img {
   margin-top: 30px;
+  border-radius: 6px;
 }
 .section.about p {
   max-width: 1000px;
   margin-top: 30px;
 }
+.section.videos {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),
+    url("/images/Seven\ Hunters\ blank\ background\ web.jpeg");
+  background-repeat: none;
+  background-size: cover;
+  max-width: 100%;
+}
+.video-link {
+  max-width: 70%;
+  margin: auto;
+}
+.section .video {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 6px;
+}
 @media (max-width: 992px) {
   h1 {
     font-size: 18px;
-    padding-top: 60px;
+    padding-top: 150px;
   }
   header img {
   }
