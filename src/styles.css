@@ -71,6 +71,9 @@ nav a:hover {
 .songs-albums img {
   border-radius: 6px;
 }
+.songs-albums .col {
+  text-align: left;
+}
 .section.about img {
   margin-top: 30px;
   border-radius: 6px;
@@ -126,5 +129,6 @@ nav a:hover {
   }
   .section.about p {
     max-width: 80%;
+    font-size: 12px;
   }
 }
