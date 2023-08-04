@@ -80,8 +80,8 @@ nav a:hover {
   margin-top: 30px;
 }
 .section.videos {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),
-    url("/images/Seven\ Hunters\ blank\ background\ web.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)),
+    url("/images/doordark2.jpg");
   background-repeat: none;
   background-size: cover;
   max-width: 100%;
