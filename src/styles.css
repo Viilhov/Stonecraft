@@ -111,6 +111,9 @@ nav a:hover {
   color: #9f9e9c;
   text-decoration: none;
 }
+.music-player {
+  aspect-ratio: 1 / 1;
+}
 @media (max-width: 992px) {
   h1 {
     font-size: 18px;
