@@ -115,6 +115,8 @@ nav a:hover {
   margin: auto;
   display: block;
   border-radius: 5px;
+  width: 700px;
+  height: 700px;
 }
 
 s .player-links {
@@ -153,5 +155,15 @@ s .player-links {
   .section.about p {
     max-width: 80%;
     font-size: 12px;
+  }
+  .music-player {
+    width: 550px;
+    height: 550px;
+  }
+}
+@media (max-width: 576px) {
+  .music-player {
+    width: 250px;
+    height: 250px;
   }
 }
