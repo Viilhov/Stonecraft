@@ -101,6 +101,9 @@ nav a:hover {
 .row.social-media {
   max-width: 80%;
 }
+.section.social-media i {
+  color: #9f9e9c;
+}
 .coding {
   margin-bottom: 0;
   position: relative;
@@ -117,6 +120,10 @@ nav a:hover {
   border-radius: 5px;
   width: 700px;
   height: 700px;
+}
+.music-player.large {
+  width: 700px;
+  height: 1200px;
 }
 
 s .player-links {
@@ -135,6 +142,14 @@ s .player-links {
   display: block;
   margin: auto;
   padding-bottom: 50px;
+}
+header.secret-window {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("/images/Secret\ Window\ webbackground.jpg");
+}
+header.seven-hunters {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("/images/Seven\ Hunters\ blank\ background\ web.jpeg");
 }
 @media (max-width: 992px) {
   h1 {
@@ -160,10 +175,18 @@ s .player-links {
     width: 550px;
     height: 550px;
   }
+  .music-player.large {
+    width: 550px;
+    height: 1000px;
+  }
 }
 @media (max-width: 576px) {
   .music-player {
     width: 250px;
     height: 250px;
+  }
+  .music-player.large {
+    width: 250px;
+    height: 500px;
   }
 }
