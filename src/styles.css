@@ -169,6 +169,10 @@ header.moving-tides {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("/images/Moving\ tides\ clean.jpg");
 }
+header.the-call {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/images/The\ call\ clean.jpg");
+}
 
 @media (max-width: 992px) {
   h1 {
