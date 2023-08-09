@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .container {
   margin: 0;
@@ -14,16 +14,13 @@ h1 {
   font-weight: 400;
   font-size: 34px;
   padding-bottom: 30px;
-  font-family: UncitronSwinging;
+  font-family: "Macondo", cursive;
 }
 h2 {
-  font-family: UncitronSwinging;
+  font-family: "Macondo", cursive;
 }
 
 header {
-  /*background: rgba(0, 0, 0, 0.9);
-  background-size: cover;
-  max-width: 100%;*/
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("/images/Secret\ Window\ webbackground.jpg");
   background-repeat: none;
@@ -210,7 +207,7 @@ header.the-call {
     font-size: 10px;
   }
   nav img {
-    max-width: 100px;
+    max-width: 130px;
     padding: 5px;
   }
   .section {
@@ -250,9 +247,6 @@ header.the-call {
     font-size: 16px;
   }
 
-  nav img {
-    max-width: 150px;
-  }
   .music-player {
     width: 250px;
     height: 250px;
