@@ -21,7 +21,12 @@ h2 {
 }
 
 header {
-  background: rgba(0, 0, 0, 0.9);
+  /*background: rgba(0, 0, 0, 0.9);
+  background-size: cover;
+  max-width: 100%;*/
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("/images/Secret\ Window\ webbackground.jpg");
+  background-repeat: none;
   background-size: cover;
   max-width: 100%;
 }
@@ -63,8 +68,9 @@ header .gallery {
 
 .section.about {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("/images/Secret\ Window\ webbackground.jpg");
+    url("/images/The\ call\ clean.jpg");
   background-repeat: none;
+  background-size: cover;
 }
 .section .social-media {
   max-width: 90%;
@@ -77,7 +83,7 @@ header .gallery {
   margin-bottom: 0;
 }
 .section.music {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("/images/fourwindslarge.jpg");
   background-repeat: none;
   background-size: cover;
@@ -102,7 +108,7 @@ header .gallery {
   margin-top: 30px;
 }
 .section.videos {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url("/images/doordark2.jpg");
   background-repeat: none;
   background-size: cover;
